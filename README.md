@@ -21,6 +21,5 @@ provide webservice api for volunteer mobile application
 Refer to: http://francevolunteer.tam.name.vn:8090/ept/swagger-ui/index.html#/
 
 ## License
-HungLV
 
 
