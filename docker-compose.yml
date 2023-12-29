@@ -1,0 +1,16 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "8090:8090"
+
+  mongodb:
+    image: mongo
+    container_name: my_mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - /Users/kenny/Workspaces/DB/mongodb/bin/data1:/data/db
+    command: mongod --dbpath /data/db --bind_ip_all
