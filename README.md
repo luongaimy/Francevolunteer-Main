@@ -1,5 +1,5 @@
 # francevolunteer
-Provide rest api for france volunteer system
+Provide rest API for france volunteer system
 
 ## Prerequisites
 - Java temurin 11
@@ -17,9 +17,5 @@ Provide rest api for france volunteer system
 ## Main feature
 provide webservice api for volunteer mobile application
 
-## Swagger
-Refer to: http://francevolunteer.tam.name.vn:8090/ept/swagger-ui/index.html#/
-
-## License
 
 
